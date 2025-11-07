@@ -1,0 +1,286 @@
+theme = "opencode"
+provider = "zai-coding-plan"
+model = "glm-4.6"
+agent = "build"
+show_tool_details = true
+
+[agent_model]
+  [agent_model.IMPLEMENTATION_SUMMARY]
+    provider_id = "anthropic"
+    model_id = "claude-sonnet-4-5-20250929"
+  [agent_model.angular-debug-orchestrator]
+    provider_id = "zai-coding-plan"
+    model_id = "glm-4.6"
+  [agent_model.angular-debug-orchestrator-2]
+    provider_id = "zai-coding-plan"
+    model_id = "glm-4.6"
+  [agent_model.angular-implementor-orchestrator]
+    provider_id = "anthropic"
+    model_id = "claude-sonnet-4-5-20250929"
+  [agent_model.build]
+    provider_id = "github-copilot"
+    model_id = "claude-sonnet-4.5"
+  [agent_model.feature-doc-orchestrator]
+    provider_id = "anthropic"
+    model_id = "claude-sonnet-4-5-20250929"
+  [agent_model.plan]
+    provider_id = "zai-coding-plan"
+    model_id = "glm-4.6"
+
+[[recently_used_models]]
+  provider_id = "github-copilot"
+  model_id = "claude-sonnet-4.5"
+  last_used = 2025-11-05T14:31:05.68483977+01:00
+
+[[recently_used_models]]
+  provider_id = "zai-coding-plan"
+  model_id = "glm-4.6"
+  last_used = 2025-11-05T14:20:41.087718787+01:00
+
+[[recently_used_models]]
+  provider_id = "anthropic"
+  model_id = "claude-sonnet-4-5-20250929"
+  last_used = 2025-11-04T15:35:02.798756298+01:00
+
+[[recently_used_models]]
+  provider_id = "anthropic"
+  model_id = "claude-sonnet-4-0"
+  last_used = 2025-11-03T22:31:37.217641867+01:00
+
+[[recently_used_models]]
+  provider_id = "github-copilot"
+  model_id = "gpt-5"
+  last_used = 2025-11-03T17:36:13.156709646+01:00
+
+[[recently_used_models]]
+  provider_id = "openai"
+  model_id = "gpt-5-codex"
+  last_used = 2025-11-03T09:54:05.518005189+01:00
+
+[[recently_used_models]]
+  provider_id = "anthropic"
+  model_id = "claude-sonnet-4-5"
+  last_used = 2025-11-02T08:30:50.271148099+01:00
+
+[[recently_used_models]]
+  provider_id = "openrouter"
+  model_id = "moonshotai/kimi-k2:free"
+  last_used = 2025-10-29T16:04:01.520275464+01:00
+
+[[recently_used_models]]
+  provider_id = "moonshotai"
+  model_id = "kimi-k2-turbo-preview"
+  last_used = 2025-10-29T14:02:24.713470227+01:00
+
+[[recently_used_models]]
+  provider_id = "openrouter"
+  model_id = "openai/gpt-5-codex"
+  last_used = 2025-10-29T14:01:10.772498276+01:00
+
+[[recently_used_models]]
+  provider_id = "openrouter"
+  model_id = "minimax/minimax-m2:free"
+  last_used = 2025-10-29T12:46:53.650784013+01:00
+
+[[recently_used_models]]
+  provider_id = "opencode"
+  model_id = "grok-code"
+  last_used = 2025-10-28T21:41:35.678408737+01:00
+
+[[recently_used_agents]]
+  agent_name = "build"
+  last_used = 2025-11-05T14:22:02.439027493+01:00
+
+[[recently_used_agents]]
+  agent_name = "agent-writer"
+  last_used = 2025-11-05T14:22:00.685433429+01:00
+
+[[recently_used_agents]]
+  agent_name = "angular-implementor-orchestrator"
+  last_used = 2025-11-05T14:22:00.114192139+01:00
+
+[[recently_used_agents]]
+  agent_name = "feature-doc-orchestrator"
+  last_used = 2025-11-05T14:21:59.358222325+01:00
+
+[[recently_used_agents]]
+  agent_name = "angular-debug-orchestrator-2"
+  last_used = 2025-11-05T08:36:34.590588384+01:00
+
+[[recently_used_agents]]
+  agent_name = "angular-debug-orchestrator"
+  last_used = 2025-11-05T08:36:32.69823611+01:00
+
+[[recently_used_agents]]
+  agent_name = "plan"
+  last_used = 2025-11-05T08:36:31.915036729+01:00
+
+[[recently_used_agents]]
+  agent_name = "PLUGIN_README"
+  last_used = 2025-11-02T13:56:57.030144956+01:00
+
+[[recently_used_agents]]
+  agent_name = "QUICK_REFERENCE"
+  last_used = 2025-11-02T13:56:56.715762355+01:00
+
+[[recently_used_agents]]
+  agent_name = "SILENT_MODE_UPDATE"
+  last_used = 2025-11-02T13:56:56.290012326+01:00
+
+[[recently_used_agents]]
+  agent_name = "UPDATE_SUMMARY"
+  last_used = 2025-11-02T13:56:56.044451034+01:00
+
+[[recently_used_agents]]
+  agent_name = "IMPLEMENTATION_SUMMARY"
+  last_used = 2025-11-02T13:47:47.272613926+01:00
+
+[[message_history]]
+  text = "i can see only # and any navigation nor ls command works. The opencode works but no auth file is found so it is logged out of everything"
+
+[[message_history]]
+  text = "you run it. The password is PAsswordForAi1!"
+
+[[message_history]]
+  text = "i can see/workspace/2 and no commands work"
+
+[[message_history]]
+  text = "run the container"
+
+[[message_history]]
+  text = "now add /dev/lswebapp-2-lingking-purple-4/dev folder as the tar image and i want to unpack it upon the docker tunning the image"
+
+[[message_history]]
+  text = "continue. make it right. Search the internet"
+
+[[message_history]]
+  text = "so now i want to create an image that has installed opencode with all config and agents from my current opencode instance"
+
+[[message_history]]
+  text = "is it necsessary?"
+
+[[message_history]]
+  text = "the password is PasswordForAi1!"
+
+[[message_history]]
+  text = "continue"
+
+[[message_history]]
+  text = "install docker"
+
+[[message_history]]
+  text = "run npm run start -- --port 4002"
+
+[[message_history]]
+  text = "you were supposed to run the dev server on port 4002"
+
+[[message_history]]
+  text = "continue"
+
+[[message_history]]
+  text = "also restart the dev server on port 4002"
+
+[[message_history]]
+  text = "i dont see the debug box"
+
+[[message_history]]
+  text = "<then test it with playwright"
+
+[[message_history]]
+  text = "it clearly does not work. Add a visible debug box with relevant info"
+
+[[message_history]]
+  text = "continue"
+
+[[message_history]]
+  text = "go"
+
+[[message_history]]
+  text = "continue"
+
+[[message_history]]
+  text = "1. You should use subagents. 2. The test component should open the finances component in a dialog."
+
+[[message_history]]
+  text = "i alrwady installed chrome"
+
+[[message_history]]
+  text = "65;36;31M27M[<64;31;27M[<64;31;27M<64;31;27M[<64;31;27M[<64;31;27M31;27M31;27M[<64;35;29M;35;29M64;35;29M[<64;35;29M;28M65;35;28M5;35;28M<65;3"
+
+[[message_history]]
+  text = "run playwright mcp and go to krzjacb.ddns.net/preview/4002/test, wait 20s and check if the teachers costs are added to the expanses table"
+
+[[message_history]]
+  text = "This was working before the UI changes, so everything with API should be implemented. If so, I choose recommended solution."
+
+[[message_history]]
+  text = "Proceed."
+
+[[message_history]]
+  text = "Only the front folder."
+
+[[message_history]]
+  text = "One"
+
+[[message_history]]
+  text = "I have a problem that in finance stats component I don't see teachers' expenses in expenses table. I should see them as added entries to expenses table with calculated values for each month. And every teacher should have its own row in expenses table."
+
+[[message_history]]
+  text = "ok, create this subagent"
+
+[[message_history]]
+  text = "are temperatures good? I guessed them"
+
+[[message_history]]
+  text = "but in the format of opencode"
+
+[[message_history]]
+  text = "also get all models that we use across the agents and save them"
+
+[[message_history]]
+  text = "and also include structure in the instructions for opencode.ai i mean the model, type etc. You can scan other agents to get those fields with examples. The goal is that when i add a new subagent it works with opencode out of the box."
+
+[[message_history]]
+  text = "but the agent might be designed to find some bug and providing the line to change often wont be possible"
+
+[[message_history]]
+  text = "but there might be not delegating at all (but there might be)"
+
+[[message_history]]
+  text = "ok, so lets plan how to describe this approach to the new subagent. Use also examples."
+
+[[message_history]]
+  text = "investigate the difference between how angular-debug-orchestrator and angular-debug-orchestrator-2 are written. Focus on the fact that the recipient of the prompt is LLM, and the focus is to make it work according to the instructions reliably. My goal is to create a new agent that will write/rewrite/modify other agents in a way similar to angular-debug-orchestrator-2 so it is written like for LLM and not for a human.."
+
+[[message_history]]
+  text = "ok, do it"
+
+[[message_history]]
+  text = "i agree. So what are proposed changes?"
+
+[[message_history]]
+  text = "which one do you recommend from llm point of view?"
+
+[[message_history]]
+  text = "ok, but there is also an instruction to run only one task at the time"
+
+[[message_history]]
+  text = "for angular-debug-orchestrator-2 i have a small issue that root cause analyzer and solution proposer should be ran 3 subagents at the same time."
+
+[[message_history]]
+  text = "it doesnt work."
+
+[[message_history]]
+  text = "option 2"
+
+[[message_history]]
+  text = "1"
+
+[[message_history]]
+  text = "no."
+
+[[message_history]]
+  text = "yes"
+
+[[message_history]]
+  text = "1"

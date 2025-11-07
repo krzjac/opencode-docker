@@ -1,0 +1,15 @@
+# Ignore large tar files to keep repo small
+*.tar.gz
+
+# Ignore log files
+*.log
+
+# Ignore temporary directories
+temp-extract/
+
+# Ignore node_modules in any directory
+**/node_modules/
+
+# Ignore build artifacts
+dist/
+build/
